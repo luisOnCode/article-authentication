@@ -6,11 +6,11 @@ With OAuth1, role based authentication was now possible, but that requires clien
 
 OAuth2 is handling only Authorization, with four agents "Client", "Resource Owner", "Resource Server" and "Authentication Server"
 
-Client identifies itself to Authentication Server
-CL asks Resource Owner's permission to ask for some data
-Accepted, CL redirects RO to AS's page
-With accepted credentials, AS is giving an Access Token in return
-With Access Token, CL now asks Resource Server for content
+- Client identifies itself to Authentication Server
+- CL asks Resource Owner's permission to ask for some data
+- Accepted, CL redirects RO to AS's page
+- With accepted credentials, AS is giving an Access Token in return
+- With Access Token, CL now asks Resource Server for content
 
 OAuth2 is working only with "what will you do?"
 
