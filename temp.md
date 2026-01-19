@@ -15,4 +15,5 @@ OAuth2 is handling only Authorization, with four agents "Client", "Resource Owne
 OAuth2 is working only with "what will you do?"
 
 Solving the "who you are?" question, we have OpenID Connect
+
 OIDC abstracts credential delivering to Authentication Server
