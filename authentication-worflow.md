@@ -81,7 +81,7 @@ _server returns a 200 OK with Payload_
 
 
 
-## Validation
+## Feature
 
 **| Client |**
 
