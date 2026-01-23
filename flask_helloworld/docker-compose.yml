@@ -1,0 +1,7 @@
+services:
+  web-app:
+    build: .
+    ports:
+      - "5010:5000"
+    volumes:
+      - .:/app
