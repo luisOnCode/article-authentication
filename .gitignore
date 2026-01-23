@@ -1,0 +1,7 @@
+.git
+.env
+
+.vscode/
+
+flask_helloworld/.venv/
+flask_helloworld/venv/
