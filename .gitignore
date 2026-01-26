@@ -1,11 +1,8 @@
 .env
 .vscode/
 
-flask_helloworld/.venv/
-flask_helloworld/venv/
-flask_helloworld/.dockerignore/
-
-first_authentication/.venv/
-first_authentication/venv/
-first_authentication/.dockerignore/
-first_authentication/__pycache__
+**/.venv/
+**/venv/
+**/.env
+**/.dockerignore/
+**/__pycache__/
