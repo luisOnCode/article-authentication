@@ -1,0 +1,23 @@
+name: Pipe-Test
+
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  Build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checking out
+        uses: actions/checkout@v6.0.2
+  
+      - name: Building Docker image
+        uses: docker/build-push-action@v6.18.0
+        with:
+          context: ./first_authentication
+          file: ./first_authentication/Dockerfile
+          push: true
+          tags: |
+            luisoncode/first_authentication:v1
+            luisoncode/first_authentication:latest
